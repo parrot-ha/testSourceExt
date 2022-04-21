@@ -1,0 +1,15 @@
+id: c984e029-bc92-4677-8cd7-69959aa3c25a
+name: Automation App and Device Handler Test Extension
+minHubVersion: 0.2.2
+author: Parrot HA
+version: 0.1.0
+licenseFile: TBD
+releaseNotes: TBD
+description: Provides an Automation App and a Device Handler to be installed
+category: INTEGRATIONS
+type: source
+sourcefiles:
+  - file: AutomationApp.groovy
+    type: AUTOMATION_APP
+  - file: DeviceHandler.groovy
+    type: DEVICE_HANDLER
