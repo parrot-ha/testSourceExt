@@ -8,7 +8,7 @@ releaseNotes: TBD
 description: Provides an Automation App and a Device Handler to be installed
 category: INTEGRATIONS
 type: source
-sourcefiles:
+files:
   - file: AutomationApp.groovy
     type: AUTOMATION_APP
   - file: DeviceHandler.groovy
