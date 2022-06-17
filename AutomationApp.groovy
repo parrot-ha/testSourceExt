@@ -34,9 +34,5 @@ def initialize() {
 
 def motionDetectedHandler(evt) {
     log.debug "motionDetectedHandler called: $evt"
-}
-
-def motionDetectedHandler(evt) {
-    log.debug "motionDetectedHandler called: $evt"
     theswitch.on()
 }
